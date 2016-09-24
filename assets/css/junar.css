@@ -95,6 +95,12 @@ body {
 	color: #FFF;
 }
 
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
 .upper-footer{
 	height: 60px;
 	width: 100%;
