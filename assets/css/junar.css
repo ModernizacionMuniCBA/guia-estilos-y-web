@@ -1,3 +1,13 @@
+
+@font-face {
+    font-family: Gotham-black-italic;
+    src: url(../fonts/Gotham-BlackItalic.otf);
+}
+@font-face {
+    font-family: Gotham-book;
+    src: url(../fonts/Gotham-Book.otf);
+}
+
 body { 
 	padding-top: 70px; 
 }
@@ -85,6 +95,76 @@ body {
 	color: #FFF;
 }
 
+.upper-footer{
+	height: 60px;
+	width: 100%;
+	min-width: 960px;
+	position: relative;
+}
+.upper-footer .footer-bg{
+	background-color: #191919;
+	opacity: 0.6;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+
+}
+.upper-footer .footer-content{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+.upper-footer .footer-content .footer-content-imgs{
+	height: 50px;
+	margin-top: 10px;
+}
+
+.sub-footer{
+	height: 80px;
+	width: 100%;
+	min-width: 960px;
+	background: rgba(119,180,186,1);
+	background: -moz-linear-gradient(left, rgba(119,180,186,1) 0%, rgba(0,144,97,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(119,180,186,1)), color-stop(100%, rgba(0,144,97,1)));
+	background: -webkit-linear-gradient(left, rgba(119,180,186,1) 0%, rgba(0,144,97,1) 100%);
+	background: -o-linear-gradient(left, rgba(119,180,186,1) 0%, rgba(0,144,97,1) 100%);
+	background: -ms-linear-gradient(left, rgba(119,180,186,1) 0%, rgba(0,144,97,1) 100%);
+	background: linear-gradient(to right, rgba(119,180,186,1) 0%, rgba(0,144,97,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#77b4ba', endColorstr='#009061', GradientType=1 );
+}
+
+.upper-footer .footer-content .footer-text{
+	color: #9ef2d4;
+	margin-top: 25px;
+	text-align: center;
+}
+
+.upper-footer .footer-content .footer-text .footer-a{
+	color: #9ef2d4;
+	font-size: 14px;
+	text-align: center;
+	font-family: "Gotham-book";
+	text-transform: uppercase;
+}
+
+.upper-footer .footer-content .footer-text .footer-a:hover{
+	color: #5be9b6;
+	text-decoration: none;
+}
+
+.sub-footer-title{
+	font-family: "Gotham-black-italic";
+	font-size: 1.2em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.sub-footer-subtitle{
+	font-family: "Gotham-book";
+	font-size: 1em;
+	text-align: center;
+}
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
