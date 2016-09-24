@@ -1,0 +1,121 @@
+body { 
+	padding-top: 70px; 
+}
+
+.navbar-muni{
+	background-color: #FFF;
+	color: #000;
+	min-width: 960px;
+	height: 70px;
+}
+
+.navbar-muni .nav>li>a:focus, .navbar-muni .nav>li>a:hover{
+	color: #000;
+}
+.navbar-muni .muni-logo-container{
+	padding: 0;
+	padding-left: 15px;
+}
+.navbar-muni .muni-logo-container .muni-logo{
+	max-height: 65px;
+	margin-top: 2.5px;
+}
+
+.navbar-muni .muni-logo-container .muni-logo-verde{
+	max-height: 45px;
+	margin-top: 20px;
+}
+
+
+.navbar-muni .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+
+.navbar-muni.navbar-fixed-bottom .navbar-collapse, .navbar-muni.navbar-fixed-top .navbar-collapse{
+	margin-top: 15px;
+/* 	border-bottom: 1px solid #00A665; */
+}
+
+.navbar-muni .navbar-collapse {
+	background-color: #FFFFFF;
+}
+.navbar-muni.navbar-fixed-top .navbar-collapse .navbar-nav>li>a{
+
+	color: #000;
+	font-weight: 400;
+	font-size: 1.2em;
+	font-family: 'Lato', sans-serif;
+}
+
+.navbar-muni.navbar-fixed-top .navbar-collapse .navbar-nav>li>a:hover{
+	
+	color: #000;
+}
+
+.menu-logo{
+	margin-bottom: 2%;
+	margin-top: -2%;
+}
+
+.menu-logo-scrolled{
+	margin-left: 15%;
+	margin-top: -6%;
+}
+.menu-container-scrolled{
+	margin-top: -5%;
+}
+.search-icon{
+	margin-top: 0px;
+}
+.search-input{
+	margin-top: 10px;
+	width: 300px;
+	border-radius: 5px;
+	border: 1px solid #777;
+}
+
+.form-search{
+	display: none;
+}
+
+.search-button{
+	background-color: #009061;
+	border-radius: 5px;
+	border: 1px solid #009061;
+	color: #FFF;
+}
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+/* Small devices (tablets, 768px and up) */
+
+@media(min-width:768px){
+	.navbar-muni.navbar-fixed-top .navbar-collapse .navbar-nav>li>a{
+		
+	color: #000;
+		padding-bottom: 5px;
+	}
+	
+	.navbar-muni.navbar-fixed-top .navbar-collapse .navbar-nav>li>a:hover{
+background-color: #FFFFFF;
+	color: #000;
+		border-bottom: 3px solid #00c075;
+		
+	}
+	.navbar-muni .navbar-collapse {
+
+		color: #000;
+	}
+}
+/* Medium devices (desktops, 992px and up) */
+
+@media(min-width:992px){
+	
+}
+
+/* Large devices (large desktops, 1200px and up) */
+
+@media(min-width:1200px){
+	
+}

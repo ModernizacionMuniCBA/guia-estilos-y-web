@@ -16,7 +16,7 @@
 	<link href='https://fonts.googleapis.com/css?family=Raleway:200,400,500,700' rel='stylesheet' type='text/css'>
 
 	<!-- Custom CSS -->
-	<link href="assets/css/basic.css" rel="stylesheet">
+	<link href="assets/css/junar.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -34,13 +34,17 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="muni-logo-container navbar-brand" href="#"><img src="assets/images/muni-logo.png" class="img-responsive muni-logo"></a>
+          <a class="muni-logo-container navbar-brand" href="#"><img src="assets/images/logo-muni-verde.png" class="img-responsive muni-logo-verde"></a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
 <!--             <li class="active"><a href="#">Inicio</a></li> -->
-            <li><a href="#about">Portal de Gobierno Abierto</a></li>
-            <li><a href="#contact">Municipalidad de Córdoba</a></li>
+            <li><a href="http://gobiernoabierto.cordoba.gov.ar/" target="_parent">Portal de Gobierno Abierto</a></li>
+            <li><a href="http://www.cordoba.gob.ar/" target="_parent">Municipalidad de Córdoba</a></li>
+            <li><form method="get" action="https://cordobaciudad.opendata.junar.com/search/" target="_parent" class="form-search">
+				<input type="text" name="q" class="search-input"/>
+				<input type="submit" value="Buscar" class="search-button" />
+			</form><a href="#" class="search-icon"><i class="glyphicon glyphicon-search"></i></a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -51,5 +55,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="assets/js/bootstrap.min.js"></script>
+    <script>
+	    $( ".search-icon" ).on( "click", function() {
+			$('.form-search').show();
+			$(this).hide()
+		});    
+	</script>
   </body>
 </html>
