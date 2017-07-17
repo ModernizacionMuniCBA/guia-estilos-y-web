@@ -1,0 +1,190 @@
+
+/*		Generales		*/
+body {
+	padding-top: 70px;
+}
+
+a{
+	color: #009162;
+}
+
+a:hover{
+	color: #007750;
+}
+
+.italica{
+	font-style: italic;
+}
+
+/*   1. Navbar    */
+.navbar-muni{
+	background-color: #009162;
+	height: 70px;
+}
+
+.navbar-muni .nav>li>a:focus, .navbar-muni .nav>li>a:hover{
+	background-color: #009162;
+}
+.navbar-muni .muni-logo-container{
+	padding: 0;
+	padding-left: 15px;
+}
+.navbar-muni .muni-logo-container .muni-logo{
+	max-height: 65px;
+	margin-top: 2.5px;
+}
+
+.navbar-muni .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+
+.navbar-muni.navbar-fixed-bottom .navbar-collapse, .navbar-muni.navbar-fixed-top .navbar-collapse{
+	margin-top: 15px;
+	border-bottom: 1px solid #009162;
+}
+
+.navbar-muni .navbar-collapse {
+	background-color: #FFFFFF;
+}
+.navbar-muni.navbar-fixed-top .navbar-collapse .navbar-nav>li>a{
+	background-color: #FFFFFF;
+	color: #000;
+	font-weight: 400;
+	font-size: 1.2em;
+	font-family: 'Lato', sans-serif;
+}
+
+.navbar-muni.navbar-fixed-top .navbar-collapse .navbar-nav>li>a:hover{
+	background-color: #009162;
+	color: #FFFFFF;
+}
+
+/*	1.1 Logo	*/
+.menu-logo{
+	margin-bottom: 2%;
+	margin-top: -2%;
+}
+
+.menu-logo-scrolled{
+	margin-left: 15%;
+	margin-top: -6%;
+}
+.menu-container-scrolled{
+	margin-top: -5%;
+}
+
+/*		2. Footer		*/
+.footer-muniCba{
+	border-top: 4px solid #009162;
+}
+.copyright{
+	background-color: #009162;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.copyright p{
+	margin: 0;
+}
+
+.footer-muniCba .logo{
+	max-width: 300px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	margin-left: -10px;
+}
+
+
+/*		3. Jumbotron		*/
+.jumbotron.jumbotron-main{
+	background-color: #F1F3F5;
+	margin-bottom: 0px;
+	padding-bottom: 58px;
+}
+
+.jumbotron.jumbotron-main h1{
+	text-align: center;
+	font-weight: 900;
+	font-size: 6em;
+	margin: 20px auto;
+}
+
+.jumbotron.jumbotron-main p.lead{
+	text-align: center;
+	font-weight: 500;
+}
+.jumbotron.jumbotron-main .lead .comentario-lead{
+	text-align: center;
+	font-weight: 400;
+	font-size: 0.8em;
+}
+
+
+/*		4. Botones		*/
+.btn.btn-muniCba {
+    color: #fff;
+    background-color: #009162;
+    border-color: #007851;
+}
+
+.btn.btn-muniCba:hover{
+	background-color: #007851;
+}
+.btn-muniCba.active,
+.btn-muniCba:active,
+.open>.dropdown-toggle.btn-muniCba {
+    color: #fff;
+    background-color: #007851;
+    border-color: #007851;
+}
+
+.btn.btn-muniCba.inverso {
+    color: #009162;
+    background-color: #E2E6EA;
+    border-color: #007851;
+}
+
+.btn.btn-muniCba.inverso:hover{
+	background-color: #d3d9df;
+}
+.btn-muniCba.inverso.active,
+.btn-muniCba.inverso:active,
+.open>.dropdown-toggle.btn-muniCba.inverso {
+    color: #009162;
+    background-color: #d3d9df;
+    border-color: #007851;
+}
+
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+/* Small devices (tablets, 768px and up) */
+@media(min-width:768px){
+	.navbar-muni.navbar-fixed-top .navbar-collapse .navbar-nav>li>a{
+		background-color: #009162;
+		color: #FFFFFF;
+		padding-bottom: 5px;
+	}
+
+	.navbar-muni.navbar-fixed-top .navbar-collapse .navbar-nav>li>a:hover{
+		background-color: #009162;
+		color: #FFFFFF;
+		border-bottom: 3px solid #00c075;
+
+	}
+	.navbar-muni .navbar-collapse {
+		background-color: #009162;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media(min-width:992px){
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media(min-width:1200px){
+
+}
